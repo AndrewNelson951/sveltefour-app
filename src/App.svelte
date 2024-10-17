@@ -1,19 +1,33 @@
 <script>
+  import Face from "./Face.svelte";
     let say = 'hi';
     setTimeout(() => {
         say = 'bye';
     }, 1000)
 </script>
 
+<div>
+    Say: {say}
+</div>
+
+<Face size={4} index={1}/>
+<Face />
+<Face size={10} index={2}/>
+
+
+
+
 <style>
     div {
         color: red;
     }
-    :global(div) {
-      background: blue;
-    }
+    :global(*) {
+		box-sizing: border-box;
+	}
+	:global(body, html) {
+		margin: 0;
+		height: 100vh;
+		overflow: hidden;
+	}
 </style>
 
-<div>
-    Say: {say}
-</div>
