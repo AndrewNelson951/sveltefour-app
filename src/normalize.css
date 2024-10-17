@@ -1,0 +1,46 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+Licence: none (public domain)
+*/
+body {
+    background-color: white;
+    cursor: default;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+    display: block;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+figcaption,
+figure,
+main {
+    display: block;
+}
+
+figure {
+    margin: 1em 40px;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
